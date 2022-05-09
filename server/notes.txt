@@ -1,0 +1,36 @@
+npm i typescript @types/node ts-node-dev -D
+
+npx tsc --init 
+
+
+PRISMA
+------
+I prisma -D 
+
+I @prisma/client 
+
+npx prisma init /* criar pasta PRISMA
+
+npx prisma migrate dev /* criar as tabelas */
+
+npx prisma studio
+
+
+npm i jest -D
+npx jest --init
+npm i ts-node -D
+
+npm i -D jest @swc/jest         /* para fazer o Jest entender TS
+
+
+Ctrl+Shift+P
+> settings.json > editor.formatOnSave (deixar o editor formatar (identação) pelo tipo de arquivo)
+
+https://mailtrap.io/ -> Servidor de emails
+
+SOLID
+Single Responsability Principle     > Cada classe/função tem uma responsabilidade única
+Open/Closed Principle               > Classes devem ser abertas para extensão mas fechadas para modificação
+Liskov Substitution Principle       > Devemos poder substituir uma classe pai por uma herança e tudo continuar funcionando
+Interface Segregation Principle     > 
+Dependency Inversion Principle      > 
