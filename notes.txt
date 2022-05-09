@@ -1,0 +1,2 @@
+// Gerenciador para projetos Front
+npm create vite@latest
